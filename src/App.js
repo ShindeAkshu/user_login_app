@@ -11,13 +11,12 @@ function App() {
 
   if (isLoading) return <div>Loading...</div>
   return (
-    <>
+    <div>
       <LoginButton/>
       <LogoutButton/>
       <Profile/>
-    </> 
+    </div>
    
   );
 };
-
 export default App;

@@ -8,7 +8,7 @@ const LoginButton = () => {
 return(
     <button onClick= {() =>loginWithRedirect() }>
 
-        <dib><h1>UserLogin App</h1></dib>
+        Log In
 
     </button>
   )
